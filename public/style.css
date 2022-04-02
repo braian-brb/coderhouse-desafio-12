@@ -1,0 +1,44 @@
+form {
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+#div-tabla-products {
+    background-color: #424850ea;
+    color: #fff;
+    margin: 0 auto;
+    width: 70%;
+
+}
+
+#box {
+    background-color: #acacacaf;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+#table-desafio {
+    color: #fff;
+}
+
+.header-list {
+    color: rgb(95, 33, 33);
+    margin: 0 auto;
+    width: 70%;
+}
+
+.header-product {
+    color: blue;
+}
+
+.header-mensajes {
+    color: rgb(29, 8, 221);
+    margin: 0 auto;
+    width: 70%;
+}
+
+#texto.form-control {
+    display: inline;
+}

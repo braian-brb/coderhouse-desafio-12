@@ -1,0 +1,23 @@
+<div class="container-sm" id="div-desafio">
+<table class="table" id = "table-desafio">
+<thead>
+    <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Price</th>
+        <th scope="col">Foto</th>
+    </tr>
+</thead>
+<tbody>
+{{#isEmpity products}}
+{{/isEmpity}}
+    {{#each products}}
+        <tr>
+            <td>{{{name}}}</td>
+            <td>$ {{{price}}}</td>
+            <td><img src="{{thumbnail}}" alt="{{name}}" width="30px"></td>
+        </tr>
+    {{/each}}
+       
+</tbody>
+
+</table> </div>
